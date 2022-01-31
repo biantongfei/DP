@@ -1,0 +1,7 @@
+-m ../config/yolov3-custom.cfg
+-d ../config/custom.data
+--pretrained_weights ../weights/darknet53.conv.74
+
+--image_folder ../../ori_data/samples/
+--checkpoint_model checkpoints/yolov3_ckpt_100.pth
+--class_path ../../classes.names

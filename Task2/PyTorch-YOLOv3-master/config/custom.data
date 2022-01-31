@@ -1,0 +1,4 @@
+classes= 1
+train=../../ori_data/train.txt
+valid=../../ori_data/valid.txt
+names=../../classes.names
